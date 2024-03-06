@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Gattu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/aditya_logo.webp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Aditya</span><br>Gattu From India</h1>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/aditya_logo.webp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- Profile image container -->
+            <div class="profile-img-container">
+                <img src="/images/pro12.jpg" class="logo1"> <!-- Moved the img tag here -->
+            </div>
+            <!-- Your existing header text -->
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Aditya</span><br>Gattu From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pro8.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Aditya Gattu, a passionate Computer Science professional with a rich background spanning software engineering, machine learning, and web development. My journey from a Bachelor of Technology to pursuing a Master of Science at the University of Utah has been fueled by a desire to leverage technology in solving complex problems and improving efficiencies. With experiences ranging from internships at Motorola Solutions to impactful roles at Commscope and Presidio Cloud Solutions, I've honed my skills in a variety of technical domains. Whether engineering advanced RESTful APIs, optimizing performance in computing architectures, or crafting full-stack applications, I bring a blend of innovation, dedication, and technical prowess to the table. Beyond the keyboard, my participation in hackathons and receipt of prestigious scholarships underscore my commitment to continuous learning and excellence in the field of computer science.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Engineering</span><br>
+                            <p>Advanced RESTful API development, performance optimization, full-stack web applications</p>
+                        </li>
+                        <li><span>Machine Learning</span><br><p>Implementing and optimizing machine learning models for predictive analysis</p></li>
+                        <li><span>Web Development</span><br><p>development with React, serverless infrastructure on AWS</p></li>
+                        <li><span>Programming Languages</span><br><p>Proficient in C, C++, Python, JavaScript, Java, C#, SQL</p></li>
+                        <li><span>Development Tools</span><br><p>VS Code, IntelliJ, Eclipse, AWS, Google Cloud Platform, Jenkins, Git</p></li>
+                        <li><span>Frameworks/Technologies</span><br><p>ReactJS, Angular, .NET, scikit-learn, Linux</p></li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>May 2023 – Aug 2023</span><br><div class="hdg">Software Engineer Intern at Motorola Solutions</div>Engineered RESTful APIs, enhanced software configuration management.</p></li>
+                        <li><span>Aug 2021 – Jul 2022</span><br><div class="hdg">Software Engineer at Commscope</div>Developed 'Port Profile' functionality, optimized OS Packet Filter data structure.</p></li>
+                        <li><span>Mar 2021 – Aug 2021</span><br><div class="hdg">Software Developer Intern at Presidio Cloud Solutions</div>Developed Kibbitz, a full-stack web application, implemented Serverless on AWS.</p></li>
+                        <li><span>May 2019 – Jun 2019</span><br><div class="hdg">Machine Learning Intern at Bharat Electronics Limited</div>Implemented Machine Learning models for predictive analysis.</p></li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Aug 2022 – May 2024</span><br><div class="hdg">Master of Science in Computer Science</div> <p> University of Utah, Salt Lake City, Utah.</p><p> CGPA: 4.0/4.0</p></li>
+                        <li><span>Aug 2017 – Jul 2021</span><br><div class="hdg">Bachelor of Technology in Computer Science (Hons.)</div> <p> SASTRA Deemed to be University, Thanjavur, Tamil Nadu.</p><p>CGPA: 9.25/10.0</p></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> gattuaditya@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1 (929)-613-7782</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Aditya_Gattu_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aditya Gattu</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyokcOd0p4WegDbk8IBnEukHVmqRvIcrXqnBj6zNWG5NBlpliNuB_16e0FTYmmzfq5Z/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
