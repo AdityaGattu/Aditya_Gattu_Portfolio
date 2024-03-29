@@ -51,7 +51,7 @@ nav{
     height: 30vw; /* Setting height the same as width to maintain the circle */
     border-radius: 50%; /* This makes the logo round */
     position: absolute; /* Position absolutely within the relative parent */
-    right: 15%; /* Adjust as necessary to place it on the right half */
+    right: 12%; /* Adjust as necessary to place it on the right half */
     border: 3px solid #fff; /* Optional: Adds a white border */
     box-shadow: 0 0 10px #fff; /* Optional: Adds a shadow for effect */
     display: flex;
@@ -62,7 +62,7 @@ nav{
 }
 
 .profile-container {
-    margin-top : 7%;
+    margin-top : 5%;
 }
 
 .intro-profile-container {
@@ -99,7 +99,8 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-left: 5%;
+    margin-top: 18%;
     font-size: 30px;
 }
 .header-text h1{
