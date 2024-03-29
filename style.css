@@ -52,8 +52,6 @@ nav{
     border-radius: 50%; /* This makes the logo round */
     position: absolute; /* Position absolutely within the relative parent */
     right: 15%; /* Adjust as necessary to place it on the right half */
-    top: 50%; /* Start at the vertical center */
-    transform: translateY(-50%); /* Center the logo vertically */
     border: 3px solid #fff; /* Optional: Adds a white border */
     box-shadow: 0 0 10px #fff; /* Optional: Adds a shadow for effect */
     display: flex;
@@ -61,6 +59,14 @@ nav{
     align-items: center;
     overflow: hidden; /* Ensures no overflow from the circle */
     object-fit: cover; /* This will cover the area without stretching the image */
+}
+
+.profile-container {
+    margin-top : 7%;
+}
+
+.intro-profile-container {
+    display : flex;
 }
 
 .logo{
