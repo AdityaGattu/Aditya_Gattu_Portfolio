@@ -392,6 +392,12 @@ form .btn2{
     letter-spacing: 1.5px;
 }
 
+.taglines{
+    font-size: 24px;
+    margin-top: 15px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
 
 /* -----------------css for small screens--------- */
 nav .fas{
