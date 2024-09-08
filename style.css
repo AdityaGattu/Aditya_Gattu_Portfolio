@@ -380,6 +380,19 @@ form .btn2{
     color: #ff004f;
     text-decoration: none;
 }
+
+
+.proemailerstyle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+
 /* -----------------css for small screens--------- */
 nav .fas{
     display: none;
